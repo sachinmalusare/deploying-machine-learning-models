@@ -10,7 +10,8 @@ def test_make_single_prediction():
     single_test_input = test_data[0:1]
 
     # When
-    subject = make_prediction(input_data=single_test_input)
+    subject = make_prediction(input_data=single_test_json)
+    #abcd
 
     # Then
     assert subject is not None
