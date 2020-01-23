@@ -11,7 +11,7 @@ def test_make_single_prediction():
 
     # When
     subject = make_prediction(input_data=single_test_json)
-
+    #abcd
     # Then
     assert subject is not None
     assert isinstance(subject.get('predictions')[0], float)
